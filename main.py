@@ -15,7 +15,7 @@ results[0].show()
 # confidence = results[0].boxes.conf.numpy().astype('int')
 
 # Live webcam
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     ret,image = cap.read()
